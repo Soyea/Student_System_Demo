@@ -12,8 +12,9 @@
 5.小生在页面的上部分做了一个轮播图，使整个页面更有动感，这样不会显得那么生硬
 
 你要怎么运行？
-1.打开mongodb数据库，输入存储过程代码（在文件名为“存储过程”里面）
-2.安装node.js,在cmd窗口输入node app.js即可
+1.搭建环境，安装node.js,并且在node环境下安装mongodb
+2.打开mongodb数据库，输入存储过程代码（在文件名为“存储过程”里面）
+3.在cmd窗口输入node app.js即可
 
 项目主要涉及的技术有：vue2.0+vue-resource+vuex+node.js+mongodb+组件模块化
 
