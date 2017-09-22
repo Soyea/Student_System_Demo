@@ -1,0 +1,33 @@
+.mainMenu{
+	list-style:none;
+	width:100%;
+}
+.mainMenu>li{
+	font-size:18px;
+	width:100%;
+	border-bottom:1px solid white;
+}
+.mainMenu>li:hover>span{
+	color:white;
+	font-weight:bold;
+}
+.mainMenu>li>span{
+	height:50px;display:block;width:100%;
+	line-height:50px;text-align:center;cursor:pointer;
+	
+}
+.subMenu{
+	width:100%;margin:0 auto;list-style:none;
+	background-color:white;padding-top:15px;padding-bottom:15px;
+}
+.subMenu>li{font-size:16px;text-align:center;
+	height:35px;line-height:35px;
+	
+}
+.subMenu>li:hover{cursor:pointer;color:pink;}
+.slide-enter,.slide-leave-to{
+	-webkit-transform:translateX(-100%);
+}
+.slide-enter-active,.slide-leave-active{
+	transition:0.6s all ease;
+}

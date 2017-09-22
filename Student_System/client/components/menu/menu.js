@@ -1,0 +1,30 @@
+var menu=Vue.extend({
+	template:'#menu',
+	data:function(){
+		return {
+			menus:[]
+		};
+	},
+	created:function(){
+		this.menus=[
+				{name:"点下方的文字"},
+				{
+					name:'信息管理',
+					isShow:false,
+					subMenus:[
+						{name:'基本信息',gridName:'student'},
+						{name:'寝室信息',gridName:'dormitory'}
+				]}
+			];
+	},
+	methods:{
+		toggle:function(i){
+			this.menus[i].isShow=!this.menus[i].isShow;
+		},
+		addTab:function(sub){
+			this.$store.commit("tabs/addTab",sub.name);
+			this.$store.commit('grid/addGrid',sub.gridName)
+		}
+	}
+});
+Vue.component('mymenu',menu);

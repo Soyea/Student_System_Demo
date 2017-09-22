@@ -1,0 +1,44 @@
+.grid-seporator{
+	margin-top:5px;
+	position:relative;
+}
+.grid-seporator>ul{
+	list-style:none;
+	font-size:0;
+	background-color:pink;
+	height:40px;
+}
+.grid-seporator>ul>li{
+	display:inline-block;
+	font-size:14px;
+	color:white;
+	padding:5px 2px;
+	margin:5px;
+	cursor:pointer;
+	position:relative;
+	font-weight:bolder;
+}
+
+.grid-seporator>ul>li:before{}
+.grid-seporator>ul>li:after{}
+.grid-seporator>ul>li.info{cursor:default;}
+
+.grid-seporator>ul>li:hover{
+	color:orange;
+	text-decoration: underline;
+}
+.grid-seporator>ul>li.active{
+	color:black;
+}
+.grid-seporator>ul>li.info:hover{
+	text-decoration: none;
+	color:white;
+}
+.grid-seporator>.set{
+	position:absolute;
+	right:10px;
+	top:10px;
+	color:white;
+	font-size:14px;
+	font-weight:bolder;
+}

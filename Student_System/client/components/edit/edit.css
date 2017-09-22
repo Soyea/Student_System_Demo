@@ -1,0 +1,60 @@
+.edit-header{
+	position:absolute;left:0;top:0;
+	background-color:pink;
+	width:100%;
+}
+.edit-header>h2{
+	height:40px;line-height:40px;
+	color:white;text-indent: 1em;
+	font-size:18px;
+}
+.edit-header>span{
+	float:right;color:white;
+	width:30px;height:30px;
+	font-size:25px;
+	border-radius:15px;
+	line-height:30px;
+	border:1px solid white;
+	text-align:center;
+	margin-top:5px;
+	margin-right:10px;
+	cursor:pointer;
+}
+.edit-header>span:hover{
+	box-shadow:0 0 5px 1px #ccc;
+}
+.edit-body{margin-top:50px;}
+.edit-body>ul{list-style:none;width:320px;}
+.edit-body>ul>li{overflow:hidden;}
+.edit-body>ul>li>input[type=text],
+.edit-body>ul>li>select{
+	width:200px;height:30px;
+	text-indent: 1em;
+}
+.edit-body>ul>li>input[type=radio]~span{
+	margin-right:20px;
+}
+.edit-body>ul>li>label{
+	box-sizing:bordere-box;
+	padding-right:10px;
+	display:inline-block;
+	text-align:right;line-height:50px;
+	width:80px;height:50px;
+}
+
+.edit-footer{
+	margin-top:20px;
+	text-align:center;
+}
+.edit-footer>input{
+	font-size:18px;
+	background-color:pink;
+	color:white;
+	border:none;
+	padding:5px 15px;
+	border-radius:5px;
+	cursor:pointer;margin-right:10px;
+}
+.edit-footer>input:hover{
+	box-shadow:0 0 5px 1px #333;
+}

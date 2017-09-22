@@ -1,0 +1,58 @@
+.grid-table,.grid-table *{padding:0;margin:0;}
+.grid-table{
+	margin:15px 25px;
+	box-shadow:0 0 20px 1px pink;
+	min-width:600px;
+}
+.grid-table>caption{
+	width:100%;
+	background-color:pink;
+	text-align:left;
+}
+.grid-table>caption>h2{
+	color:white;height:40px;line-height:40px;
+	margin-left:15px;font-size:18px;
+}
+.grid-table>caption>a{
+	float:right;
+	color:white;
+	margin-right:15px;
+	margin-top:10px;
+}
+.grid-table>caption>.r-block{
+	padding-top:8px;
+	padding-bottom:8px;
+}
+.grid-table>caption>.r-block>*{
+	vertical-align: middle;
+}
+.grid-table>caption label{
+	display:inline-block;
+	color:white;
+	padding:5px;
+	margin-left:10px;
+}
+.grid-table>caption input{
+	width:110px;height:25px;
+	text-indent: 1em;
+}
+.grid-table>caption select{
+	height:30px;padding-left:8px;padding-right:8px;
+}
+.grid-table>caption input[type=button]{
+	width:50px;height:25px;line-height:25px;
+	background-color:pink;color:white;
+	border:1px solid white;
+	margin-left:15px;
+	text-indent: 0em;
+}
+.grid-table>caption input[type=button]:hover{
+	cursor:pointer;box-shadow:0 0 5px 1px black;
+}
+.grid-table,.grid-table th,.grid-table td{
+	border:1px solid pink;
+	border-collapse:collapse;
+}
+.grid-table th,.grid-table td{
+	padding:8px 15px;
+}	
